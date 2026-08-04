@@ -1,9 +1,412 @@
 {
   "artworks": [
-    { "id": "artwork-0001", "title": "구름 위의 여행", "medium": "캔버스에 유채", "dimensions": "130.3 × 162.2 cm", "description": "하늘과 바다 사이를 여행하는 존재에 관한 작품입니다.", "alt": "푸른 하늘 위 고래 등에 앉아 있는 아이를 그린 작품" },
-    { "id": "artwork-0002", "title": "달을 바라보는 아이", "medium": "캔버스에 아크릴", "dimensions": "91 × 116.8 cm", "description": "", "alt": "커다란 달을 바라보는 아이를 그린 회화 작품" },
-    { "id": "artwork-0003", "title": "푸른 정원", "medium": "캔버스에 유채", "dimensions": "72.7 × 90.9 cm", "description": "", "alt": "푸른 식물과 상상의 생명들이 어우러진 회화 작품" },
-    { "id": "artwork-0004", "title": "고요한 비행", "medium": "캔버스에 아크릴", "dimensions": "80.3 × 80.3 cm", "description": "", "alt": "옅은 하늘을 조용히 날아가는 존재를 그린 작품" },
-    { "id": "artwork-0005", "title": "바다가 시작되는 곳", "medium": "캔버스에 유채", "dimensions": "97 × 193.9 cm", "description": "", "alt": "수평선 너머로 이어지는 푸른 바다 풍경 작품" }
+    {
+      "id": "artwork-a0318-0049",
+      "title": "같이 사는 땅",
+      "medium": "장지에 혼합 재료, 콜라주",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "김민경 작가의 2022년 작품 「같이 사는 땅」"
+    },
+    {
+      "id": "artwork-a0318-0048",
+      "title": "연(緣)",
+      "medium": "장지에 혼합 재료, 콜라주",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "김민경 작가의 2022년 작품 「연(緣)」"
+    },
+    {
+      "id": "artwork-a0318-0047",
+      "title": "모아",
+      "medium": "장지에 채색, 혼합 재료",
+      "dimensions": "91x117cm",
+      "description": "",
+      "alt": "김민경 작가의 2022년 작품 「모아」"
+    },
+    {
+      "id": "artwork-a0318-0046",
+      "title": "서로",
+      "medium": "한지에 혼합 재료, 콜라주, 채색",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "김민경 작가의 2021년 작품 「서로」"
+    },
+    {
+      "id": "artwork-a0318-0045",
+      "title": "상(想)",
+      "medium": "장지에 혼합 재료, 콜라주",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "김민경 작가의 2021년 작품 「상(想)」"
+    },
+    {
+      "id": "artwork-a0318-0043",
+      "title": "눈 안(眼)",
+      "medium": "장지에 채색",
+      "dimensions": "73x91cm",
+      "description": "",
+      "alt": "김민경 작가의 2021년 작품 「눈 안(眼)」"
+    },
+    {
+      "id": "artwork-a0318-0042",
+      "title": "조율 II",
+      "medium": "한지에 장지에 채색, 콜라주, 먹",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "김민경 작가의 2021년 작품 「조율 II」"
+    },
+    {
+      "id": "artwork-a0318-0041",
+      "title": "Tempo",
+      "medium": "한지에 채색, 콜라주, 혼합 재료",
+      "dimensions": "91x73cm",
+      "description": "",
+      "alt": "김민경 작가의 2021년 작품 「Tempo」"
+    },
+    {
+      "id": "artwork-a0318-0039",
+      "title": "눈 눈",
+      "medium": "한지에 장지에 채색, 콜라주",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "김민경 작가의 2021년 작품 「눈 눈」"
+    },
+    {
+      "id": "artwork-a0318-0051",
+      "title": "Same Earth(Blue)",
+      "medium": "장지에 장지에 채색, 혼합 재료, 콜라주",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "김민경 작가의 2020년 작품 「Same Earth(Blue)」"
+    },
+    {
+      "id": "artwork-a0318-0050",
+      "title": "The Earth 4",
+      "medium": "장지에 채색",
+      "dimensions": "91x117cm",
+      "description": "",
+      "alt": "김민경 작가의 2020년 작품 「The Earth 4」"
+    },
+    {
+      "id": "artwork-a0318-0044",
+      "title": "청(聽)",
+      "medium": "장지에 장지에 채색, 혼합 재료, 콜라주",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "김민경 작가의 2020년 작품 「청(聽)」"
+    },
+    {
+      "id": "artwork-a0318-0038",
+      "title": "Dialogue",
+      "medium": "한지에 채색",
+      "dimensions": "91x117cm",
+      "description": "",
+      "alt": "김민경 작가의 2020년 작품 「Dialogue」"
+    },
+    {
+      "id": "artwork-a0318-0037",
+      "title": "시선",
+      "medium": "장지에 혼합 재료",
+      "dimensions": "73x61cm",
+      "description": "",
+      "alt": "김민경 작가의 2020년 작품 「시선」"
+    },
+    {
+      "id": "artwork-a0318-0036",
+      "title": "습관",
+      "medium": "장지에 혼합 재료",
+      "dimensions": "117x91cm",
+      "description": "",
+      "alt": "김민경 작가의 2020년 작품 「습관」"
+    },
+    {
+      "id": "artwork-a0318-0035",
+      "title": "무게",
+      "medium": "장지에 채색",
+      "dimensions": "73x91cm",
+      "description": "",
+      "alt": "김민경 작가의 2020년 작품 「무게」"
+    },
+    {
+      "id": "artwork-a0318-0034",
+      "title": "Listener",
+      "medium": "장지에 장지에 채색",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "김민경 작가의 2020년 작품 「Listener」"
+    },
+    {
+      "id": "artwork-a0318-0033",
+      "title": "시간",
+      "medium": "장지에 장지에 채색",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "김민경 작가의 2020년 작품 「시간」"
+    },
+    {
+      "id": "artwork-a0318-0040",
+      "title": "29",
+      "medium": "장지에 채색, 콜라주, 혼합 재료",
+      "dimensions": "91x73cm",
+      "description": "",
+      "alt": "김민경 작가의 2019년 작품 「29」"
+    },
+    {
+      "id": "artwork-a0318-0032",
+      "title": "잡을 수 없는 것",
+      "medium": "장지에 혼합 재료",
+      "dimensions": "27x22cm",
+      "description": "",
+      "alt": "김민경 작가의 2019년 작품 「잡을 수 없는 것」"
+    },
+    {
+      "id": "artwork-a0318-0031",
+      "title": "시절인연",
+      "medium": "장지에 혼합 재료",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "김민경 작가의 2019년 작품 「시절인연」"
+    },
+    {
+      "id": "artwork-a0318-0030",
+      "title": "The Earth 3",
+      "medium": "장지에 채색",
+      "dimensions": "27x35cm",
+      "description": "",
+      "alt": "김민경 작가의 2018년 작품 「The Earth 3」"
+    },
+    {
+      "id": "artwork-a0318-0029",
+      "title": "The Same Galaxy",
+      "medium": "옻칠지에 채색",
+      "dimensions": "38x46cm",
+      "description": "",
+      "alt": "김민경 작가의 2018년 작품 「The Same Galaxy」"
+    },
+    {
+      "id": "artwork-a0318-0025",
+      "title": "그들의 대화",
+      "medium": "장지에 채색,콜라주",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "김민경 작가의 2018년 작품 「그들의 대화」"
+    },
+    {
+      "id": "artwork-a0318-0024",
+      "title": "The Same Earth 818",
+      "medium": "장지에 채색,콜라주",
+      "dimensions": "92x117cm",
+      "description": "",
+      "alt": "김민경 작가의 2018년 작품 「The Same Earth 818」"
+    },
+    {
+      "id": "artwork-a0318-0021",
+      "title": "그 속에서",
+      "medium": "장지에 채색, 혼합매체",
+      "dimensions": "46x38cm",
+      "description": "",
+      "alt": "김민경 작가의 2018년 작품 「그 속에서」"
+    },
+    {
+      "id": "artwork-a0318-0028",
+      "title": "닿을 수 없는 것",
+      "medium": "죽지에 혼합재료",
+      "dimensions": "35x27cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「닿을 수 없는 것」"
+    },
+    {
+      "id": "artwork-a0318-0027",
+      "title": "그리고 남은 것",
+      "medium": "장지에 채색,한지콜라주",
+      "dimensions": "117x92cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「그리고 남은 것」"
+    },
+    {
+      "id": "artwork-a0318-0026",
+      "title": "마주하다",
+      "medium": "장지에 혼합재료",
+      "dimensions": "73x91cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「마주하다」"
+    },
+    {
+      "id": "artwork-a0318-0023",
+      "title": "관계매듭 II",
+      "medium": "장지에 채색, 혼합매체",
+      "dimensions": "130x97cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「관계매듭 II」"
+    },
+    {
+      "id": "artwork-a0318-0022",
+      "title": "조율",
+      "medium": "장지에 수묵채색, 혼합매체",
+      "dimensions": "80x100cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「조율」"
+    },
+    {
+      "id": "artwork-a0318-0020",
+      "title": "다가오다",
+      "medium": "죽지에 수묵채색",
+      "dimensions": "100x80cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「다가오다」"
+    },
+    {
+      "id": "artwork-a0318-0019",
+      "title": "자기침잠",
+      "medium": "장지에 채색, 수묵한지콜라주",
+      "dimensions": "91x73cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「자기침잠」"
+    },
+    {
+      "id": "artwork-a0318-0018",
+      "title": "기억담기",
+      "medium": "장지에 채색",
+      "dimensions": "32x41cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「기억담기」"
+    },
+    {
+      "id": "artwork-a0318-0017",
+      "title": "The Same Earth (memory)",
+      "medium": "장지에 채색, 수묵한지콜라주",
+      "dimensions": "92x117cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「The Same Earth (memory)」"
+    },
+    {
+      "id": "artwork-a0318-0016",
+      "title": "바라보다",
+      "medium": "장지에 혼합재료",
+      "dimensions": "73x91cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「바라보다」"
+    },
+    {
+      "id": "artwork-a0318-0015",
+      "title": "쉽지 않은 관계",
+      "medium": "장지에 채색, 수묵한지콜라주",
+      "dimensions": "130x162cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「쉽지 않은 관계」"
+    },
+    {
+      "id": "artwork-a0318-0014",
+      "title": "관계매듭",
+      "medium": "죽지에 담채, 수묵한지콜라주",
+      "dimensions": "112x146cm",
+      "description": "",
+      "alt": "김민경 작가의 2017년 작품 「관계매듭」"
+    },
+    {
+      "id": "artwork-a0318-0013",
+      "title": "The Same Earth 516",
+      "medium": "죽지에 수묵채색, 한지콜라주",
+      "dimensions": "80x100cm",
+      "description": "",
+      "alt": "김민경 작가의 2016년 작품 「The Same Earth 516」"
+    },
+    {
+      "id": "artwork-a0318-0012",
+      "title": "쉽지 않은 관계",
+      "medium": "죽지에 채색",
+      "dimensions": "80x100cm",
+      "description": "",
+      "alt": "김민경 작가의 2016년 작품 「쉽지 않은 관계」"
+    },
+    {
+      "id": "artwork-a0318-0011",
+      "title": "너와 나_끌림2",
+      "medium": "장지에 혼합재료",
+      "dimensions": "61x72cm",
+      "description": "",
+      "alt": "김민경 작가의 2016년 작품 「너와 나_끌림2」"
+    },
+    {
+      "id": "artwork-a0318-0010",
+      "title": "너와 나_끌림1",
+      "medium": "장지에 혼합재료",
+      "dimensions": "61x72cm",
+      "description": "",
+      "alt": "김민경 작가의 2016년 작품 「너와 나_끌림1」"
+    },
+    {
+      "id": "artwork-a0318-0009",
+      "title": "The Same Earth (blue)",
+      "medium": "장지에 채색, 한지콜라주",
+      "dimensions": "91x117cm",
+      "description": "",
+      "alt": "김민경 작가의 2016년 작품 「The Same Earth (blue)」"
+    },
+    {
+      "id": "artwork-a0318-0008",
+      "title": "가족, 그 거대한 흐름 속에서",
+      "medium": "장지에 채색, 혼합매체",
+      "dimensions": "162x130cm",
+      "description": "",
+      "alt": "김민경 작가의 2016년 작품 「가족, 그 거대한 흐름 속에서」"
+    },
+    {
+      "id": "artwork-a0318-0007",
+      "title": "닿기를",
+      "medium": "장지에 채색, 한지콜라주",
+      "dimensions": "61x72cm",
+      "description": "",
+      "alt": "김민경 작가의 2016년 작품 「닿기를」"
+    },
+    {
+      "id": "artwork-a0318-0006",
+      "title": "저 마다의 방(Red)",
+      "medium": "장지에 채색, 한지콜라주",
+      "dimensions": "162x130cm",
+      "description": "",
+      "alt": "김민경 작가의 2015년 작품 「저 마다의 방(Red)」"
+    },
+    {
+      "id": "artwork-a0318-0005",
+      "title": "이합집산II",
+      "medium": "장지에 채색, 한지콜라주",
+      "dimensions": "129x97cm",
+      "description": "",
+      "alt": "김민경 작가의 2015년 작품 「이합집산II」"
+    },
+    {
+      "id": "artwork-a0318-0004",
+      "title": "이합집산I",
+      "medium": "장지에 채색, 한지콜라주",
+      "dimensions": "129x97cm",
+      "description": "",
+      "alt": "김민경 작가의 2015년 작품 「이합집산I」"
+    },
+    {
+      "id": "artwork-a0318-0003",
+      "title": "The Same Earth II",
+      "medium": "장지에 채색, 한지콜라주",
+      "dimensions": "130x194cm",
+      "description": "",
+      "alt": "김민경 작가의 2015년 작품 「The Same Earth II」"
+    },
+    {
+      "id": "artwork-a0318-0002",
+      "title": "그렇게 시작된",
+      "medium": "죽지에 담채, 한지콜라주",
+      "dimensions": "90x117cm",
+      "description": "",
+      "alt": "김민경 작가의 2015년 작품 「그렇게 시작된」"
+    },
+    {
+      "id": "artwork-a0318-0001",
+      "title": "다가가다",
+      "medium": "장지에 채색, 한지콜라주",
+      "dimensions": "130x194cm",
+      "description": "",
+      "alt": "김민경 작가의 2015년 작품 「다가가다」"
+    }
   ]
 }

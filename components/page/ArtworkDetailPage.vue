@@ -18,7 +18,7 @@ useHead(() => ({ htmlAttrs: { lang: locale.value }, link: [
   { rel: 'alternate', hreflang: 'x-default', href: `${siteUrl}${localePath(`/artworks/${props.slug}`, defaultLocale)}` }
 ], script: artwork.value ? [{ type: 'application/ld+json', innerHTML: JSON.stringify({
   '@context': 'https://schema.org', '@type': 'VisualArtwork', name: artwork.value.title,
-  image: `${siteUrl}${artwork.value.image}`, creator: { '@type': 'Person', name: content.value.artistNameLatin },
+  image: absoluteAssetUrl(artwork.value.image, siteUrl), creator: { '@type': 'Person', name: content.value.artistNameLatin },
   dateCreated: artwork.value.year, artMedium: artwork.value.medium, width: artwork.value.imageWidth,
   height: artwork.value.imageHeight, inLanguage: locale.value, url: canonical.value
 }) }] : [] }))
@@ -27,7 +27,7 @@ useSeoMeta({
   description: () => description.value,
   ogTitle: () => `${artwork.value?.title} — ${content.value.artistNameLatin}`,
   ogDescription: () => description.value,
-  ogImage: () => artwork.value ? `${siteUrl}${artwork.value.image}` : '',
+  ogImage: () => artwork.value ? absoluteAssetUrl(artwork.value.image, siteUrl) : '',
   ogUrl: () => canonical.value,
   ogType: 'article', twitterCard: 'summary_large_image'
 })

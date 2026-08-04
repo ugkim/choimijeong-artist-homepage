@@ -14,7 +14,7 @@ useHead(() => ({ htmlAttrs: { lang: locale.value }, link: [
   { rel: 'alternate', hreflang: 'x-default', href: `${siteUrl}${localePath('/about', defaultLocale)}` }
 ], script: [{ type: 'application/ld+json', innerHTML: JSON.stringify({
   '@context': 'https://schema.org', '@type': 'Person', name: site.value.artistName,
-  alternateName: site.value.artistNameLatin, image: config.portraitImage ? `${siteUrl}${config.portraitImage}` : undefined,
+  alternateName: site.value.artistNameLatin, image: config.portraitImage ? absoluteAssetUrl(config.portraitImage, siteUrl) : undefined,
   jobTitle: site.value.occupation, description: about.value.introduction, url: canonical.value,
   sameAs: socialUrls.value.length ? socialUrls.value : undefined
 }) }] }))
@@ -23,7 +23,7 @@ useSeoMeta({
   description: () => about.value.introduction,
   ogTitle: () => `${about.value.pageTitle} — ${site.value.artistNameLatin}`,
   ogDescription: () => about.value.introduction,
-  ogImage: () => `${siteUrl}${config.portraitImage}`,
+  ogImage: () => absoluteAssetUrl(config.portraitImage, siteUrl),
   ogUrl: () => canonical.value,
   ogType: 'profile'
 })
@@ -60,20 +60,20 @@ useSeoMeta({
 </template>
 
 <style scoped lang="scss">
-.about-page { padding-block: clamp(7rem, 12vw, 12rem); }
+.about-page { padding-block: clamp(6rem, 10vw, 9rem); }
 .about-intro { display: grid; grid-template-columns: minmax(0,.85fr) minmax(20rem,1.15fr); align-items: end; gap: clamp(3rem,8vw,9rem); }
 .about-intro header { padding-bottom: 2rem; }
 .about-intro header > p,.eyebrow { margin: 0 0 1.5rem; color: var(--accent-strong); font-size: .68rem; letter-spacing: .16em; text-transform: uppercase; }
-h1 { margin: 0 0 clamp(3rem,7vw,7rem); font-family: var(--font-serif); font-size: clamp(4.5rem,11vw,11rem); font-weight: 400; line-height: .88; }
-.lead { max-width: 32rem; font-family: var(--font-serif); font-size: clamp(1.25rem,2.4vw,2rem); line-height: 1.65; }
+h1 { margin: 0 0 clamp(2.5rem,5vw,4.5rem); font-family: var(--font-serif); font-size: clamp(3.25rem,7.5vw,7.5rem); font-weight: 400; line-height: .92; }
+.lead { max-width: 32rem; font-family: var(--font-serif); font-size: clamp(1.05rem,1.65vw,1.45rem); line-height: 1.75; }
 .artist-quote { max-width: 58rem; margin: var(--section-gap) auto; padding: clamp(2rem,5vw,5rem) 0; border-block: 1px solid var(--color-line); text-align: center; }
 .artist-quote > span { color: var(--accent-color); font-family: var(--font-serif); font-size: 3rem; line-height: 1; }
-.artist-quote p { margin: .5rem 0 1.5rem; font-family: var(--font-serif); font-size: clamp(1.6rem,4vw,3.4rem); line-height: 1.5; }
+.artist-quote p { margin: .5rem 0 1.5rem; font-family: var(--font-serif); font-size: clamp(1.3rem,2.7vw,2.35rem); line-height: 1.6; }
 .artist-quote footer { color: var(--color-muted); font-size: .72rem; letter-spacing: .08em; }
 .text-section { display: grid; grid-template-columns: minmax(10rem,.45fr) minmax(0,1fr); gap: clamp(2rem,8vw,9rem); max-width: 78rem; margin: var(--section-gap) auto; }
-.text-section h2 { margin: 0; font-family: var(--font-serif); font-size: clamp(2rem,4vw,4rem); font-weight: 400; }
+.text-section h2 { margin: 0; font-family: var(--font-serif); font-size: clamp(1.45rem,2.6vw,2.6rem); font-weight: 400; line-height: 1.35; }
 .prose { max-width: 42rem; }
-.prose p { margin: 0 0 1.8rem; font-size: clamp(.92rem,1.2vw,1.05rem); line-height: 2.05; }
+.prose p { margin: 0 0 1.65rem; font-size: clamp(.86rem,1vw,.98rem); line-height: 2; }
 .selected-media { max-width: 66rem; margin: var(--section-gap) auto 0; }
 .selected-artwork { display: block; }
 .selected-artwork > span { display: block; margin-top: 1rem; color: var(--color-muted); font-size: .72rem; }

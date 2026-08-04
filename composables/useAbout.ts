@@ -1,20 +1,15 @@
-import aboutData from '~/content/about/index.json'
-import koAboutData from '~/content/locales/ko/about.json'
-import enAboutData from '~/content/locales/en/about.json'
-import siteData from '~/content/site.json'
-import type { AboutConfig, LocaleCode, LocalizedAbout, SiteConfig } from '~/types/content'
+import koData from '~/content/data/ko.json'
+import enData from '~/content/data/en.json'
+import type { LocaleBundle, LocaleCode } from '~/types/content'
 
-const aboutConfig = aboutData as AboutConfig
-const siteConfig = siteData as SiteConfig
-const translations: Record<LocaleCode, LocalizedAbout> = {
-  ko: koAboutData as LocalizedAbout,
-  en: enAboutData as LocalizedAbout
-}
+const bundles: Record<LocaleCode, LocaleBundle> = { ko: koData as LocaleBundle, en: enData as LocaleBundle }
+const siteConfig = bundles.ko.site.settings
+const aboutConfig = bundles[siteConfig.defaultLocale].about.settings
 
 export function useAbout() {
   const { locale } = useLocale()
   const { artworks } = useArtworks()
-  const content = computed(() => translations[locale.value] ?? translations[siteConfig.defaultLocale])
+  const content = computed(() => (bundles[locale.value] ?? bundles[siteConfig.defaultLocale]).about.content)
   const featuredArtwork = computed(() => aboutConfig.featuredArtworkId
     ? artworks.value.find(item => item.id === aboutConfig.featuredArtworkId) ?? null
     : null)

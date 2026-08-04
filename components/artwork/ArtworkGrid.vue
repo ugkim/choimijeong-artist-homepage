@@ -15,15 +15,15 @@ const gridStyle = computed(() => ({ '--mobile-columns': props.mobileColumns, '--
 </template>
 
 <style scoped lang="scss">
-.artwork-grid { display: grid; grid-template-columns: repeat(var(--desktop-columns), minmax(0, 1fr)); align-items: start; gap: var(--artwork-grid-row-gap, clamp(3.5rem, 8vw, 8rem)) var(--artwork-grid-column-gap, clamp(1.2rem, 2.5vw, 3rem)); }
-.artwork-grid :deep(.responsive-image) { height: auto; }
+.artwork-grid { display: grid; grid-template-columns: repeat(var(--desktop-columns), minmax(0, 1fr)); align-items: start; gap: var(--artwork-grid-row-gap, clamp(2rem, 4vw, 4rem)) var(--artwork-grid-column-gap, clamp(.75rem, 1.5vw, 1.6rem)); }
+.artwork-grid :deep(.responsive-image) { height: auto; aspect-ratio: auto !important; background: transparent !important; }
 .artwork-grid :deep(.responsive-image img) { height: auto; object-fit: contain !important; }
 @media (min-width: 1100px) {
   .artwork-grid > :nth-child(7n + 1) { grid-column: span 2; }
   .artwork-grid > :nth-child(7n + 1) :deep(.caption) { max-width: 26rem; }
 }
 @media (max-width: 767px) {
-  .artwork-grid { grid-template-columns: repeat(var(--mobile-columns), minmax(0, 1fr)); gap: clamp(2.6rem, 12vw, 4.5rem) .85rem; }
+  .artwork-grid { grid-template-columns: repeat(var(--mobile-columns), minmax(0, 1fr)); gap: clamp(1.8rem, 8vw, 3rem) .65rem; }
   .artwork-grid > * { grid-column: span 1; }
 }
 </style>

@@ -83,3 +83,18 @@ export interface LocalizedSite {
   footer: { copyright: string }
   seo: { title: string; description: string; ogTitle: string; ogDescription: string; ogImage: string }
 }
+
+export interface LocaleBundle {
+  meta: { schemaVersion: number; locale: LocaleCode; defaultLocale: LocaleCode; availableLocales: LocaleCode[] }
+  site: { settings: SiteConfig; content: LocalizedSite }
+  artworks: LocalizedArtwork[]
+  categories: LocalizedCategory[]
+  about: { settings: AboutConfig; content: LocalizedAbout }
+  cv: Omit<LocalizedCv, 'sections' | 'entries'> & {
+    pdf: Partial<Record<LocaleCode, string>>
+    sections: Array<CvSectionBase & CvSectionTranslation>
+    entries: LocalizedCvEntry[]
+  }
+  news: Omit<LocalizedNews, 'items'> & { items: LocalizedNewsItem[] }
+  contact: { settings: ContactConfig; content: LocalizedContact }
+}

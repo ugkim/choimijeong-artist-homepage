@@ -1,9 +1,9 @@
 {
   "categories": [
     {
-      "published": true,
+      "id": "relationship",
       "order": 1,
-      "id": "dream"
+      "published": true
     }
   ]
 }

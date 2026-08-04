@@ -22,8 +22,8 @@ const { localePath } = useLocale()
 .artwork-preview { min-width: 0; }
 .image-link { display: block; transition: opacity .25s ease; }
 .image-link:hover { opacity: .88; }
-.image-link :deep(.responsive-image) { background: transparent; }
-.caption { padding-top: .9rem; }
+.image-link :deep(.responsive-image) { aspect-ratio: auto !important; background: transparent !important; }
+.caption { padding-top: .7rem; }
 h3 { margin: 0; font-family: var(--font-serif); font-size: clamp(.95rem, 1.15vw, 1.16rem); font-weight: 400; }
 p { margin: .35rem 0 0; color: var(--color-muted); font-size: .68rem; line-height: 1.6; }
 </style>

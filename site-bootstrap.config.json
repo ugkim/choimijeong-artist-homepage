@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "name": "artist-portfolio",
+    "productionBranch": "main"
+  },
+  "localization": {
+    "defaultLocale": "ko",
+    "availableLocales": ["ko", "en"],
+    "sourcePattern": "content/data/{locale}.json",
+    "requireExactKeyStructure": true,
+    "requireExactIdSets": true,
+    "missingTranslationPolicy": "fail-build",
+    "exports": ["json", "csv"]
+  },
+  "cms": {
+    "provider": "decap",
+    "editorialWorkflow": false,
+    "oneCompleteEntryPerLocale": true,
+    "optionalObjectEmptyValue": null,
+    "authentication": "decide-per-project"
+  },
+  "git": {
+    "provider": "github",
+    "repositoryVisibility": "private",
+    "createRepository": true,
+    "pushAfterValidation": true
+  },
+  "netlify": {
+    "createProject": true,
+    "connectGitRepository": true,
+    "deployFromGit": true,
+    "adminPath": "/admin/",
+    "identityRegistration": "invite-only",
+    "inviteCallbackPath": "/admin/",
+    "inviteEmail": "SET_BEFORE_BOOTSTRAP"
+  },
+  "qualityGates": [
+    "content-validation",
+    "typecheck",
+    "production-build",
+    "export-verification"
+  ]
+}

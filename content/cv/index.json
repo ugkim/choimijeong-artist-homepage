@@ -1,11 +1,625 @@
 {
   "sections": [
-    { "id": "education", "order": 1, "published": true },
-    { "id": "solo-exhibitions", "order": 2, "published": true },
-    { "id": "group-exhibitions", "order": 3, "published": true },
-    { "id": "awards", "order": 4, "published": true },
-    { "id": "collections", "order": 5, "published": true }
+    {
+      "id": "education",
+      "order": 1,
+      "published": true
+    },
+    {
+      "id": "solo-exhibitions",
+      "order": 2,
+      "published": true
+    },
+    {
+      "id": "group-exhibitions",
+      "order": 3,
+      "published": true
+    },
+    {
+      "id": "collections",
+      "order": 4,
+      "published": true
+    },
+    {
+      "id": "awards",
+      "order": 5,
+      "published": true
+    },
+    {
+      "id": "other",
+      "order": 6,
+      "published": true
+    }
   ],
-  "entries": [],
-  "pdf": { "ko": "", "en": "" }
+  "entries": [
+    {
+      "id": "cv-0001",
+      "sectionId": "education",
+      "year": null,
+      "endYear": null,
+      "order": 1,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0002",
+      "sectionId": "education",
+      "year": null,
+      "endYear": null,
+      "order": 2,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0003",
+      "sectionId": "education",
+      "year": null,
+      "endYear": null,
+      "order": 3,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0004",
+      "sectionId": "solo-exhibitions",
+      "year": 2024,
+      "endYear": null,
+      "order": 4,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0005",
+      "sectionId": "solo-exhibitions",
+      "year": 2022,
+      "endYear": null,
+      "order": 5,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0006",
+      "sectionId": "solo-exhibitions",
+      "year": 2021,
+      "endYear": null,
+      "order": 6,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0007",
+      "sectionId": "solo-exhibitions",
+      "year": 2020,
+      "endYear": null,
+      "order": 7,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0008",
+      "sectionId": "solo-exhibitions",
+      "year": 2017,
+      "endYear": null,
+      "order": 8,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0009",
+      "sectionId": "solo-exhibitions",
+      "year": 2017,
+      "endYear": null,
+      "order": 9,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0010",
+      "sectionId": "group-exhibitions",
+      "year": 2024,
+      "endYear": null,
+      "order": 10,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0011",
+      "sectionId": "group-exhibitions",
+      "year": 2024,
+      "endYear": null,
+      "order": 11,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0012",
+      "sectionId": "group-exhibitions",
+      "year": 2024,
+      "endYear": null,
+      "order": 12,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0013",
+      "sectionId": "group-exhibitions",
+      "year": 2023,
+      "endYear": null,
+      "order": 13,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0014",
+      "sectionId": "group-exhibitions",
+      "year": 2023,
+      "endYear": null,
+      "order": 14,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0015",
+      "sectionId": "group-exhibitions",
+      "year": 2023,
+      "endYear": null,
+      "order": 15,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0016",
+      "sectionId": "group-exhibitions",
+      "year": 2023,
+      "endYear": null,
+      "order": 16,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0017",
+      "sectionId": "group-exhibitions",
+      "year": 2023,
+      "endYear": null,
+      "order": 17,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0018",
+      "sectionId": "group-exhibitions",
+      "year": 2023,
+      "endYear": null,
+      "order": 18,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0019",
+      "sectionId": "group-exhibitions",
+      "year": 2023,
+      "endYear": null,
+      "order": 19,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0020",
+      "sectionId": "group-exhibitions",
+      "year": 2023,
+      "endYear": null,
+      "order": 20,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0021",
+      "sectionId": "group-exhibitions",
+      "year": 2023,
+      "endYear": null,
+      "order": 21,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0022",
+      "sectionId": "group-exhibitions",
+      "year": 2022,
+      "endYear": null,
+      "order": 22,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0023",
+      "sectionId": "group-exhibitions",
+      "year": 2022,
+      "endYear": null,
+      "order": 23,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0024",
+      "sectionId": "group-exhibitions",
+      "year": 2022,
+      "endYear": null,
+      "order": 24,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0025",
+      "sectionId": "group-exhibitions",
+      "year": 2022,
+      "endYear": null,
+      "order": 25,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0026",
+      "sectionId": "group-exhibitions",
+      "year": 2022,
+      "endYear": null,
+      "order": 26,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0027",
+      "sectionId": "group-exhibitions",
+      "year": 2022,
+      "endYear": null,
+      "order": 27,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0028",
+      "sectionId": "group-exhibitions",
+      "year": 2021,
+      "endYear": null,
+      "order": 28,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0029",
+      "sectionId": "group-exhibitions",
+      "year": 2021,
+      "endYear": null,
+      "order": 29,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0030",
+      "sectionId": "group-exhibitions",
+      "year": 2021,
+      "endYear": null,
+      "order": 30,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0031",
+      "sectionId": "group-exhibitions",
+      "year": 2021,
+      "endYear": null,
+      "order": 31,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0032",
+      "sectionId": "group-exhibitions",
+      "year": 2020,
+      "endYear": null,
+      "order": 32,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0033",
+      "sectionId": "group-exhibitions",
+      "year": 2020,
+      "endYear": null,
+      "order": 33,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0034",
+      "sectionId": "group-exhibitions",
+      "year": 2020,
+      "endYear": null,
+      "order": 34,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0035",
+      "sectionId": "group-exhibitions",
+      "year": 2019,
+      "endYear": null,
+      "order": 35,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0036",
+      "sectionId": "group-exhibitions",
+      "year": 2019,
+      "endYear": null,
+      "order": 36,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0037",
+      "sectionId": "group-exhibitions",
+      "year": 2019,
+      "endYear": null,
+      "order": 37,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0038",
+      "sectionId": "group-exhibitions",
+      "year": 2019,
+      "endYear": null,
+      "order": 38,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0039",
+      "sectionId": "group-exhibitions",
+      "year": 2018,
+      "endYear": null,
+      "order": 39,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0040",
+      "sectionId": "group-exhibitions",
+      "year": 2018,
+      "endYear": null,
+      "order": 40,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0041",
+      "sectionId": "group-exhibitions",
+      "year": 2018,
+      "endYear": null,
+      "order": 41,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0042",
+      "sectionId": "group-exhibitions",
+      "year": 2017,
+      "endYear": null,
+      "order": 42,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0043",
+      "sectionId": "group-exhibitions",
+      "year": 2017,
+      "endYear": null,
+      "order": 43,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0044",
+      "sectionId": "group-exhibitions",
+      "year": 2017,
+      "endYear": null,
+      "order": 44,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0045",
+      "sectionId": "group-exhibitions",
+      "year": 2016,
+      "endYear": null,
+      "order": 45,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0046",
+      "sectionId": "group-exhibitions",
+      "year": 2016,
+      "endYear": null,
+      "order": 46,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0047",
+      "sectionId": "group-exhibitions",
+      "year": 2016,
+      "endYear": null,
+      "order": 47,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0048",
+      "sectionId": "group-exhibitions",
+      "year": 2016,
+      "endYear": null,
+      "order": 48,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0049",
+      "sectionId": "group-exhibitions",
+      "year": 2016,
+      "endYear": null,
+      "order": 49,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0050",
+      "sectionId": "group-exhibitions",
+      "year": 2016,
+      "endYear": null,
+      "order": 50,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0051",
+      "sectionId": "group-exhibitions",
+      "year": 2016,
+      "endYear": null,
+      "order": 51,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0052",
+      "sectionId": "group-exhibitions",
+      "year": 2016,
+      "endYear": null,
+      "order": 52,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0053",
+      "sectionId": "group-exhibitions",
+      "year": 2015,
+      "endYear": null,
+      "order": 53,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0054",
+      "sectionId": "group-exhibitions",
+      "year": 2014,
+      "endYear": null,
+      "order": 54,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0055",
+      "sectionId": "group-exhibitions",
+      "year": 2014,
+      "endYear": null,
+      "order": 55,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0056",
+      "sectionId": "group-exhibitions",
+      "year": 2013,
+      "endYear": null,
+      "order": 56,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0057",
+      "sectionId": "collections",
+      "year": null,
+      "endYear": null,
+      "order": 57,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0058",
+      "sectionId": "awards",
+      "year": 2014,
+      "endYear": null,
+      "order": 58,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0059",
+      "sectionId": "other",
+      "year": 2023,
+      "endYear": null,
+      "order": 59,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0060",
+      "sectionId": "other",
+      "year": 2021,
+      "endYear": null,
+      "order": 60,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0061",
+      "sectionId": "other",
+      "year": 2021,
+      "endYear": null,
+      "order": 61,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0062",
+      "sectionId": "other",
+      "year": 2020,
+      "endYear": null,
+      "order": 62,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0063",
+      "sectionId": "other",
+      "year": 2019,
+      "endYear": null,
+      "order": 63,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0064",
+      "sectionId": "other",
+      "year": 2019,
+      "endYear": null,
+      "order": 64,
+      "published": true,
+      "url": null
+    },
+    {
+      "id": "cv-0065",
+      "sectionId": "other",
+      "year": 2019,
+      "endYear": null,
+      "order": 65,
+      "published": true,
+      "url": null
+    }
+  ],
+  "pdf": {
+    "ko": "",
+    "en": ""
+  }
 }

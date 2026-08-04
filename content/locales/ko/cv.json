@@ -1,12 +1,487 @@
 {
   "pageTitle": "CV",
   "sections": [
-    { "id": "education", "title": "학력" },
-    { "id": "solo-exhibitions", "title": "개인전" },
-    { "id": "group-exhibitions", "title": "단체전" },
-    { "id": "awards", "title": "수상" },
-    { "id": "collections", "title": "소장" }
+    {
+      "id": "education",
+      "title": "학력"
+    },
+    {
+      "id": "solo-exhibitions",
+      "title": "개인전"
+    },
+    {
+      "id": "group-exhibitions",
+      "title": "단체전"
+    },
+    {
+      "id": "collections",
+      "title": "작품소장"
+    },
+    {
+      "id": "awards",
+      "title": "수상/선정"
+    },
+    {
+      "id": "other",
+      "title": "기타"
+    }
   ],
-  "entries": [],
+  "entries": [
+    {
+      "id": "cv-0001",
+      "title": "서울대학교 동양화 학사",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0002",
+      "title": "서울대학교 동양화 석사",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0003",
+      "title": "서울대학교 동양화 박사",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0004",
+      "title": "김민경 개인전 '서로 相' (세지화랑)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0005",
+      "title": "갤러리엘르 유망작가 초대개인전, 김민경 개인전 '間, 空間' (갤러리엘르, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0006",
+      "title": "김민경 개인전 '고요한 대화' (아름다운 차 박물관, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0007",
+      "title": "김민경 개인전 '그들의 대화' (아트레온갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0008",
+      "title": "김민경 개인전 'The Same Earth' (루이까또즈갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0009",
+      "title": "김민경 개인전 '다가가다' (아트247갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0010",
+      "title": "Drawing Box (아트레온 갤러리)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0011",
+      "title": "한캐미술교류전 'BEYOND' (Dignam Gallery, Toronto, Canada)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0012",
+      "title": "김민경, 소미정 2인전 'RELATIONSHIP AS A PROCESS' (미기갤러리)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0013",
+      "title": "공감 2023 (아트레온 갤러리)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0014",
+      "title": "Try To Another Section (갤러리엘르)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0015",
+      "title": "경기문화재단_복합예술프로젝트 <감지할 수 없는 모든 맺음, 觀計> (경기상상캠퍼스)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0016",
+      "title": "제57회 한국화회 <생각에 잠긴 붓> (한벽원 미술관)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0017",
+      "title": "공간여행 Chapter.1 (갤러리 코사)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0018",
+      "title": "압구정을 거닐다 展 (엔버갤러리)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0019",
+      "title": "육각형의 아카이브 (서울대학교 우석갤러리)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0020",
+      "title": "빌라다르 2023 (예술의전당 한가람미술관)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0021",
+      "title": "G-아트페어_뜻밖의 선물 展 (관악아트홀)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0022",
+      "title": "공감 2022 (아트레온갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0023",
+      "title": "Awesome (서울대학교 동양화과 석박사 오픈스튜디오, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0024",
+      "title": "서울미술나눔 2022 SNU아트페어 (SNU 장학빌딩 베리타스홀, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0025",
+      "title": "서울미술나눔 2022 SNU아트페어 ( SNU 장학빌딩 베리타스홀, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0026",
+      "title": "[FLEA:GROUND] 전시 및 경매 (홍대 KT&G 상상마당갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0027",
+      "title": "한국화회 56회전 '서로를 바라보다, 거닐다.' (한벽원 미술관, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0028",
+      "title": "서울시 공공미술 프로젝트 관악구_도림전심 展 (관천로 문화플랫폼, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0029",
+      "title": "빌라다르 2021 (예술의 전당, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0030",
+      "title": "공감 2021 (아트레온갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0031",
+      "title": "한국화회 55회전 '의미 깊은 시간들' (한벽원미술관, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0032",
+      "title": "시의 공간 展 (갤러리엘르, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0033",
+      "title": "한국화회 제 54회전 (서울대학교 문화관, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0034",
+      "title": "공감 2020 (아트레온갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0035",
+      "title": "‘The Choice 展’ (갤러리엘르, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0036",
+      "title": "'피팅룸(Fitting room)展' (우석갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0037",
+      "title": "서울대학교예술주간 ‘그들의 사이 展’ (서울대학교병원 의대 패컬티룸, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0038",
+      "title": "한국화회 제 53회전 (우석갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0039",
+      "title": "서울대학교 미술대학 석사 박사학위 청구전 (MOA 미술관, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0040",
+      "title": "빌라다르 페스티발 (예술의전당, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0041",
+      "title": "'미루 展' (동덕아트갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0042",
+      "title": "하프타임 (우석갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0043",
+      "title": "미.소.전 (아트247갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0044",
+      "title": "‘아뜰리에 STORY를 꿈꾸다’展 (예술의 전당, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0045",
+      "title": "‘사각섬 표류기 展’ (서울대학교 오픈스튜디오, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0046",
+      "title": "‘The Bridge 展’ (이앙갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0047",
+      "title": "제 9회 ‘전국 우수대학 작가전’ (영아트갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0048",
+      "title": "겸재정선미술관 4개 미술대학 청년작가 초청기획전 (겸재정선미술관, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0049",
+      "title": "서울옥션 ‘Cutting Edge 100’전시 (가나아트갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0050",
+      "title": "소피스갤러리 신진작가기획전 ‘움트다 봄 展’ (소피스 갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0051",
+      "title": "안산 국제 아트 페어 AIAF (안산문화예술의전당, 안산)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0052",
+      "title": "‘전반전’ (우석갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0053",
+      "title": "서울대학교 예술주간 ‘임의상상 展’ (서울대학교 문화관, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0054",
+      "title": "제 13회 ‘한성백제미술대상전’ (송파구청, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0055",
+      "title": "제 10회 광화문 국제아트페스티벌 ‘햇감자 展’ (세종문화회관, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0056",
+      "title": "제 2회 미술대학 연합전시 ‘니가감히 展’ (서울시민청갤러리, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0057",
+      "title": "개인소장 외",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0058",
+      "title": "제 13회 ‘한성백제미술대상전’ 특선 수상",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0059",
+      "title": "아이잗바바_아트갤러리 전시 (롯데백화점 본점 IZAAT BABA 아트갤러리)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0060",
+      "title": "서울시 공공미술 프로젝트 : 도림전심 A-FLAP 참여작가 (관악문화재단)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0061",
+      "title": "김민경_카페보테가 오픈 개인전 (카페보테가, 장흥)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0062",
+      "title": "서울대학교 미술대학 온라인 동문전 (www.snuart.or.kr)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0063",
+      "title": "TvN 드라마 <호텔델루나> 동양화 작가",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0064",
+      "title": "한독모터스 BMW THE7 시리즈 X 김민경 콜라보전시 (워커힐 호텔, 서울)",
+      "venue": "",
+      "location": "",
+      "description": ""
+    },
+    {
+      "id": "cv-0065",
+      "title": "한국화회 소속작가",
+      "venue": "",
+      "location": "",
+      "description": ""
+    }
+  ],
   "downloadLabel": "CV PDF 다운로드"
 }

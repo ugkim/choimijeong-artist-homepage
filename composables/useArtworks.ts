@@ -1,36 +1,15 @@
-import artworkBaseData from '~/content/artworks/index.json'
-import koArtworkData from '~/content/locales/ko/artworks.json'
-import enArtworkData from '~/content/locales/en/artworks.json'
-import siteData from '~/content/site.json'
-import type { ArtworkBase, ArtworkTranslation, LocaleCode, LocalizedArtwork, SiteConfig } from '~/types/content'
+import koData from '~/content/data/ko.json'
+import enData from '~/content/data/en.json'
+import type { LocaleBundle, LocaleCode, LocalizedArtwork } from '~/types/content'
 
-interface ArtworkBaseCollection { artworks: ArtworkBase[] }
-interface ArtworkTranslationCollection { artworks: ArtworkTranslation[] }
-const baseCollection = artworkBaseData as ArtworkBaseCollection
-const config = siteData as SiteConfig
-const translations: Record<LocaleCode, ArtworkTranslationCollection> = {
-  ko: koArtworkData as ArtworkTranslationCollection,
-  en: enArtworkData as ArtworkTranslationCollection
-}
+const bundles: Record<LocaleCode, LocaleBundle> = { ko: koData as LocaleBundle, en: enData as LocaleBundle }
+const config = bundles.ko.site.settings
 
 export function useArtworks() {
   const { locale } = useLocale()
   const artworks = computed<LocalizedArtwork[]>(() => {
-    const selected = translations[locale.value] ?? translations[config.defaultLocale]
-    const fallback = translations[config.defaultLocale]
-    const selectedMap = new Map(selected.artworks.map(item => [item.id, item]))
-    const fallbackMap = new Map(fallback.artworks.map(item => [item.id, item]))
-    return baseCollection.artworks.filter(item => item.published).sort((a, b) => a.order - b.order).flatMap((base): LocalizedArtwork[] => {
-      const localized = selectedMap.get(base.id)
-      const fallbackTranslation = fallbackMap.get(base.id)
-      if (!localized && import.meta.dev) console.warn(`[content] Missing ${locale.value} translation for artwork id: ${base.id}; using ${config.defaultLocale}.`)
-      const translation = localized ?? fallbackTranslation
-      if (!translation) {
-        if (import.meta.dev) console.warn(`[content] Artwork id ${base.id} has no default translation and was omitted.`)
-        return []
-      }
-      return [{ ...base, ...translation }]
-    })
+    const selected = bundles[locale.value] ?? bundles[config.defaultLocale]
+    return selected.artworks.filter(item => item.published).sort((a, b) => a.order - b.order) as LocalizedArtwork[]
   })
   const featuredArtworks = computed(() => artworks.value.filter(item => item.featured))
   const heroArtwork = computed(() => {

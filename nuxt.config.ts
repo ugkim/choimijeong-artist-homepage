@@ -1,15 +1,13 @@
-import artworkData from './content/artworks/index.json'
-import newsData from './content/news/index.json'
-import siteData from './content/site.json'
+import defaultData from './content/data/ko.json'
 
 const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || 'https://example.com'
 const contentPaths = [
-  ...siteData.menu.map(item => item.path),
-  ...artworkData.artworks.filter(item => item.published).map(item => `/artworks/${item.slug}`),
-  ...newsData.items.filter(item => item.published).map(item => `/news/${item.slug}`)
+  ...defaultData.site.settings.menu.map(item => item.path),
+  ...defaultData.artworks.filter(item => item.published).map(item => `/artworks/${item.slug}`),
+  ...(defaultData.news.items as Array<{ published: boolean; slug: string }>).filter(item => item.published).map(item => `/news/${item.slug}`)
 ]
 const prerenderRoutes = contentPaths.flatMap(path =>
-  siteData.availableLocales.map(locale => locale === siteData.defaultLocale ? path : `/${locale}${path === '/' ? '' : path}`)
+  defaultData.site.settings.availableLocales.map(locale => locale === defaultData.site.settings.defaultLocale ? path : `/${locale}${path === '/' ? '' : path}`)
 )
 
 export default defineNuxtConfig({

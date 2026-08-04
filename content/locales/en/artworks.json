@@ -1,9 +1,412 @@
 {
   "artworks": [
-    { "id": "artwork-0001", "title": "Journey Above the Clouds", "medium": "Oil on canvas", "dimensions": "51.3 × 63.9 in", "description": "A work depicting a journey between the sky and the sea.", "alt": "Painting of a child sitting on a whale above the clouds" },
-    { "id": "artwork-0002", "title": "Child Looking at the Moon", "medium": "Acrylic on canvas", "dimensions": "35.8 × 46 in", "description": "", "alt": "Painting of a child looking at a large moon" },
-    { "id": "artwork-0003", "title": "Blue Garden", "medium": "Oil on canvas", "dimensions": "28.6 × 35.8 in", "description": "", "alt": "Painting of blue plants and imagined creatures in a garden" },
-    { "id": "artwork-0004", "title": "A Quiet Flight", "medium": "Acrylic on canvas", "dimensions": "31.6 × 31.6 in", "description": "", "alt": "Painting of a figure flying quietly through a pale sky" },
-    { "id": "artwork-0005", "title": "Where the Sea Begins", "medium": "Oil on canvas", "dimensions": "38.2 × 76.3 in", "description": "", "alt": "Panoramic painting of a blue sea extending beyond the horizon" }
+    {
+      "id": "artwork-a0318-0049",
+      "title": "같이 사는 땅",
+      "medium": "jangji paper on mixed media, collage",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "같이 사는 땅, a 2022 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0048",
+      "title": "연(緣)",
+      "medium": "jangji paper on mixed media, collage",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "연(緣), a 2022 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0047",
+      "title": "모아",
+      "medium": "jangji paper on color, mixed media",
+      "dimensions": "91x117cm",
+      "description": "",
+      "alt": "모아, a 2022 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0046",
+      "title": "서로",
+      "medium": "hanji on mixed media, collage, color",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "서로, a 2021 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0045",
+      "title": "상(想)",
+      "medium": "jangji paper on mixed media, collage",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "상(想), a 2021 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0043",
+      "title": "눈 안(眼)",
+      "medium": "jangji paper on color",
+      "dimensions": "73x91cm",
+      "description": "",
+      "alt": "눈 안(眼), a 2021 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0042",
+      "title": "조율 II",
+      "medium": "hanji on jangji paper on color, collage, ink",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "조율 II, a 2021 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0041",
+      "title": "Tempo",
+      "medium": "hanji on color, collage, mixed media",
+      "dimensions": "91x73cm",
+      "description": "",
+      "alt": "Tempo, a 2021 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0039",
+      "title": "눈 눈",
+      "medium": "hanji on jangji paper on color, collage",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "눈 눈, a 2021 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0051",
+      "title": "Same Earth(Blue)",
+      "medium": "jangji paper on jangji paper on color, mixed media, collage",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "Same Earth(Blue), a 2020 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0050",
+      "title": "The Earth 4",
+      "medium": "jangji paper on color",
+      "dimensions": "91x117cm",
+      "description": "",
+      "alt": "The Earth 4, a 2020 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0044",
+      "title": "청(聽)",
+      "medium": "jangji paper on jangji paper on color, mixed media, collage",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "청(聽), a 2020 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0038",
+      "title": "Dialogue",
+      "medium": "hanji on color",
+      "dimensions": "91x117cm",
+      "description": "",
+      "alt": "Dialogue, a 2020 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0037",
+      "title": "시선",
+      "medium": "jangji paper on mixed media",
+      "dimensions": "73x61cm",
+      "description": "",
+      "alt": "시선, a 2020 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0036",
+      "title": "습관",
+      "medium": "jangji paper on mixed media",
+      "dimensions": "117x91cm",
+      "description": "",
+      "alt": "습관, a 2020 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0035",
+      "title": "무게",
+      "medium": "jangji paper on color",
+      "dimensions": "73x91cm",
+      "description": "",
+      "alt": "무게, a 2020 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0034",
+      "title": "Listener",
+      "medium": "jangji paper on jangji paper on color",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "Listener, a 2020 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0033",
+      "title": "시간",
+      "medium": "jangji paper on jangji paper on color",
+      "dimensions": "24x33cm",
+      "description": "",
+      "alt": "시간, a 2020 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0040",
+      "title": "29",
+      "medium": "jangji paper on color, collage, mixed media",
+      "dimensions": "91x73cm",
+      "description": "",
+      "alt": "29, a 2019 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0032",
+      "title": "잡을 수 없는 것",
+      "medium": "jangji paper on mixed media",
+      "dimensions": "27x22cm",
+      "description": "",
+      "alt": "잡을 수 없는 것, a 2019 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0031",
+      "title": "시절인연",
+      "medium": "jangji paper on mixed media",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "시절인연, a 2019 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0030",
+      "title": "The Earth 3",
+      "medium": "jangji paper on color",
+      "dimensions": "27x35cm",
+      "description": "",
+      "alt": "The Earth 3, a 2018 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0029",
+      "title": "The Same Galaxy",
+      "medium": "lacquered paper on color",
+      "dimensions": "38x46cm",
+      "description": "",
+      "alt": "The Same Galaxy, a 2018 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0025",
+      "title": "그들의 대화",
+      "medium": "jangji paper on color, collage",
+      "dimensions": "61x73cm",
+      "description": "",
+      "alt": "그들의 대화, a 2018 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0024",
+      "title": "The Same Earth 818",
+      "medium": "jangji paper on color, collage",
+      "dimensions": "92x117cm",
+      "description": "",
+      "alt": "The Same Earth 818, a 2018 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0021",
+      "title": "그 속에서",
+      "medium": "jangji paper on color, mixed media",
+      "dimensions": "46x38cm",
+      "description": "",
+      "alt": "그 속에서, a 2018 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0028",
+      "title": "닿을 수 없는 것",
+      "medium": "bamboo paper on mixed media",
+      "dimensions": "35x27cm",
+      "description": "",
+      "alt": "닿을 수 없는 것, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0027",
+      "title": "그리고 남은 것",
+      "medium": "jangji paper on color, hanji collage",
+      "dimensions": "117x92cm",
+      "description": "",
+      "alt": "그리고 남은 것, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0026",
+      "title": "마주하다",
+      "medium": "jangji paper on mixed media",
+      "dimensions": "73x91cm",
+      "description": "",
+      "alt": "마주하다, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0023",
+      "title": "관계매듭 II",
+      "medium": "jangji paper on color, mixed media",
+      "dimensions": "130x97cm",
+      "description": "",
+      "alt": "관계매듭 II, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0022",
+      "title": "조율",
+      "medium": "jangji paper on ink and color, mixed media",
+      "dimensions": "80x100cm",
+      "description": "",
+      "alt": "조율, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0020",
+      "title": "다가오다",
+      "medium": "bamboo paper on ink and color",
+      "dimensions": "100x80cm",
+      "description": "",
+      "alt": "다가오다, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0019",
+      "title": "자기침잠",
+      "medium": "jangji paper on color, ink-painted hanji collage",
+      "dimensions": "91x73cm",
+      "description": "",
+      "alt": "자기침잠, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0018",
+      "title": "기억담기",
+      "medium": "jangji paper on color",
+      "dimensions": "32x41cm",
+      "description": "",
+      "alt": "기억담기, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0017",
+      "title": "The Same Earth (memory)",
+      "medium": "jangji paper on color, ink-painted hanji collage",
+      "dimensions": "92x117cm",
+      "description": "",
+      "alt": "The Same Earth (memory), a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0016",
+      "title": "바라보다",
+      "medium": "jangji paper on mixed media",
+      "dimensions": "73x91cm",
+      "description": "",
+      "alt": "바라보다, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0015",
+      "title": "쉽지 않은 관계",
+      "medium": "jangji paper on color, ink-painted hanji collage",
+      "dimensions": "130x162cm",
+      "description": "",
+      "alt": "쉽지 않은 관계, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0014",
+      "title": "관계매듭",
+      "medium": "bamboo paper on light color, ink-painted hanji collage",
+      "dimensions": "112x146cm",
+      "description": "",
+      "alt": "관계매듭, a 2017 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0013",
+      "title": "The Same Earth 516",
+      "medium": "bamboo paper on ink and color, hanji collage",
+      "dimensions": "80x100cm",
+      "description": "",
+      "alt": "The Same Earth 516, a 2016 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0012",
+      "title": "쉽지 않은 관계",
+      "medium": "bamboo paper on color",
+      "dimensions": "80x100cm",
+      "description": "",
+      "alt": "쉽지 않은 관계, a 2016 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0011",
+      "title": "너와 나_끌림2",
+      "medium": "jangji paper on mixed media",
+      "dimensions": "61x72cm",
+      "description": "",
+      "alt": "너와 나_끌림2, a 2016 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0010",
+      "title": "너와 나_끌림1",
+      "medium": "jangji paper on mixed media",
+      "dimensions": "61x72cm",
+      "description": "",
+      "alt": "너와 나_끌림1, a 2016 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0009",
+      "title": "The Same Earth (blue)",
+      "medium": "jangji paper on color, hanji collage",
+      "dimensions": "91x117cm",
+      "description": "",
+      "alt": "The Same Earth (blue), a 2016 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0008",
+      "title": "가족, 그 거대한 흐름 속에서",
+      "medium": "jangji paper on color, mixed media",
+      "dimensions": "162x130cm",
+      "description": "",
+      "alt": "가족, 그 거대한 흐름 속에서, a 2016 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0007",
+      "title": "닿기를",
+      "medium": "jangji paper on color, hanji collage",
+      "dimensions": "61x72cm",
+      "description": "",
+      "alt": "닿기를, a 2016 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0006",
+      "title": "저 마다의 방(Red)",
+      "medium": "jangji paper on color, hanji collage",
+      "dimensions": "162x130cm",
+      "description": "",
+      "alt": "저 마다의 방(Red), a 2015 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0005",
+      "title": "이합집산II",
+      "medium": "jangji paper on color, hanji collage",
+      "dimensions": "129x97cm",
+      "description": "",
+      "alt": "이합집산II, a 2015 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0004",
+      "title": "이합집산I",
+      "medium": "jangji paper on color, hanji collage",
+      "dimensions": "129x97cm",
+      "description": "",
+      "alt": "이합집산I, a 2015 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0003",
+      "title": "The Same Earth II",
+      "medium": "jangji paper on color, hanji collage",
+      "dimensions": "130x194cm",
+      "description": "",
+      "alt": "The Same Earth II, a 2015 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0002",
+      "title": "그렇게 시작된",
+      "medium": "bamboo paper on light color, hanji collage",
+      "dimensions": "90x117cm",
+      "description": "",
+      "alt": "그렇게 시작된, a 2015 work by Minkyoung Kim"
+    },
+    {
+      "id": "artwork-a0318-0001",
+      "title": "다가가다",
+      "medium": "jangji paper on color, hanji collage",
+      "dimensions": "130x194cm",
+      "description": "",
+      "alt": "다가가다, a 2015 work by Minkyoung Kim"
+    }
   ]
 }

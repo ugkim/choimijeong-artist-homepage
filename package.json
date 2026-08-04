@@ -1,13 +1,15 @@
 {
-  "name": "mijung-choi-artist-portfolio",
+  "name": "minkyoung-kim-artist-portfolio",
   "private": true,
   "type": "module",
   "packageManager": "pnpm@10.14.0",
   "scripts": {
     "dev": "nuxt dev",
-    "validate": "tsx scripts/validate-content.ts",
-    "generate": "tsx scripts/validate-content.ts && nuxt generate",
-    "build": "tsx scripts/validate-content.ts && nuxt build",
+    "validate": "tsx scripts/validate-locale-bundles.ts",
+    "export:content": "tsx scripts/validate-locale-bundles.ts && tsx scripts/export-content.ts",
+    "cms:config": "tsx scripts/generate-cms-config.ts",
+    "generate": "tsx scripts/validate-locale-bundles.ts && tsx scripts/export-content.ts && nuxt generate",
+    "build": "tsx scripts/validate-locale-bundles.ts && tsx scripts/export-content.ts && nuxt build",
     "preview": "nuxt preview",
     "typecheck": "nuxt typecheck"
   },

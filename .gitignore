@@ -1,5 +1,6 @@
 .nuxt
 .output
+public/data
 node_modules
 .netlify
 .env

@@ -1,20 +1,27 @@
 {
-  "artistName": "최미정",
-  "artistNameLatin": "Mijung Choi",
-  "occupation": "화가",
-  "menu": { "main": "Main", "artworks": "Works", "about": "About", "cv": "CV", "news": "News", "contact": "Contact" },
+  "artistName": "김민경",
+  "artistNameLatin": "Minkyoung Kim",
+  "occupation": "동양화가",
+  "menu": {
+    "main": "Main",
+    "artworks": "Works",
+    "about": "About",
+    "cv": "CV",
+    "news": "News",
+    "contact": "Contact"
+  },
   "main": {
-    "artistNote": "하늘과 바다, 상상의 존재들이 전하는 따뜻한 이야기를 그립니다. 익숙한 풍경과 꿈의 경계에서 오래 머무는 마음을 바라봅니다.",
-    "artistNoteLink": "작가노트 읽기",
+    "artistNote": "사람과 사람의 사이라는 뜻의 ‘사람 인(人) 사이 간(間)’이라는 단어에 착안하여 이 땅 위에 공존하는 사람들 사이의 소통 과정과, 그 안에서 일어나는 미묘한 감정의 교류를 그리는 동양화가 김민경입니다.",
+    "artistNoteLink": "작가의 말 읽기",
     "worksTitle": "Works",
     "worksLink": "전체 작품 보기",
     "aboutTitle": "About the Artist",
-    "aboutSummary": "최미정은 환상과 현실이 만나는 순간의 감정들을 회화에 담아냅니다. 조용한 색과 낯익은 존재를 통해 각자의 기억 속 풍경을 불러냅니다.",
+    "aboutSummary": "김민경은 관계와 소통, 공존 속에서 일어나는 미묘한 감정의 움직임을 한지와 콜라주로 그립니다.",
     "aboutLink": "더 알아보기"
   },
   "works": {
     "title": "Works",
-    "description": "최미정의 회화 작업을 시간과 주제에 따라 살펴봅니다.",
+    "description": "사람과 사람 사이의 관계와 감정의 흐름을 탐구하는 김민경의 작품 51점을 소개합니다.",
     "all": "전체",
     "previousPage": "이전 페이지",
     "nextPage": "다음 페이지",
@@ -33,13 +40,18 @@
     "zoomOut": "축소",
     "resetZoom": "원래 크기"
   },
-  "common": { "imagePending": "작품 이미지 준비 중", "pagePreparing": "페이지를 준비하고 있습니다." },
-  "footer": { "copyright": "All works and images © Mijung Choi." },
+  "common": {
+    "imagePending": "작품 이미지 준비 중",
+    "pagePreparing": "페이지를 준비하고 있습니다."
+  },
+  "footer": {
+    "copyright": "All works and images © Minkyoung Kim."
+  },
   "seo": {
-    "title": "최미정 | Mijung Choi",
-    "description": "하늘과 바다, 상상의 존재를 그리는 화가 최미정의 공식 홈페이지입니다.",
-    "ogTitle": "최미정 | Mijung Choi",
-    "ogDescription": "화가 최미정의 작품과 작업 세계를 만나보세요.",
-    "ogImage": "/uploads/artworks/artwork-0001.webp"
+    "title": "김민경 | Minkyoung Kim",
+    "description": "관계와 소통, 공존의 감정을 그리는 동양화가 김민경의 작품과 이력을 소개합니다.",
+    "ogTitle": "김민경 | Minkyoung Kim",
+    "ogDescription": "동양화가 김민경의 작품과 작업 세계를 만나보세요.",
+    "ogImage": "https://og-data.s3.amazonaws.com/media/artworks/image/A0318/A0318-0049.jpg"
   }
 }

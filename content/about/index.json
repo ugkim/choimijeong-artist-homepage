@@ -1,7 +1,7 @@
 {
-  "portraitImage": "/uploads/about/portrait.webp",
-  "studioImage": "/uploads/about/studio.webp",
-  "featuredArtworkId": "artwork-0001",
+  "portraitImage": "https://og-data.s3.amazonaws.com/media/artworks/image/A0318/A0318-0049.jpg",
+  "studioImage": "https://og-data.s3.amazonaws.com/media/artworks/image/A0318/A0318-0048.jpg",
+  "featuredArtworkId": "artwork-a0318-0009",
   "showArtistNote": true,
   "showBiography": true,
   "showStatement": true

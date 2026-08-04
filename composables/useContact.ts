@@ -1,15 +1,13 @@
-import contactData from '~/content/contact/index.json'
-import koContactData from '~/content/locales/ko/contact.json'
-import enContactData from '~/content/locales/en/contact.json'
-import siteData from '~/content/site.json'
-import type { ContactConfig, LocaleCode, LocalizedContact, SiteConfig } from '~/types/content'
+import koData from '~/content/data/ko.json'
+import enData from '~/content/data/en.json'
+import type { LocaleBundle, LocaleCode } from '~/types/content'
 
-const contactConfig = contactData as ContactConfig
-const siteConfig = siteData as SiteConfig
-const translations: Record<LocaleCode, LocalizedContact> = { ko: koContactData as LocalizedContact, en: enContactData as LocalizedContact }
+const bundles: Record<LocaleCode, LocaleBundle> = { ko: koData as LocaleBundle, en: enData as LocaleBundle }
+const siteConfig = bundles.ko.site.settings
+const contactConfig = bundles[siteConfig.defaultLocale].contact.settings
 export function useContact() {
   const { locale } = useLocale()
-  const content = computed(() => translations[locale.value] ?? translations[siteConfig.defaultLocale])
+  const content = computed(() => (bundles[locale.value] ?? bundles[siteConfig.defaultLocale]).contact.content)
   const socials = computed(() => [
     { label: 'Instagram', url: contactConfig.instagram }, { label: 'YouTube', url: contactConfig.youtube },
     { label: 'Vimeo', url: contactConfig.vimeo }, { label: 'Threads', url: contactConfig.threads }

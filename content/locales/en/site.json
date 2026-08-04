@@ -1,20 +1,27 @@
 {
-  "artistName": "최미정",
-  "artistNameLatin": "Mijung Choi",
-  "occupation": "Painter",
-  "menu": { "main": "Main", "artworks": "Works", "about": "About", "cv": "CV", "news": "News", "contact": "Contact" },
+  "artistName": "Minkyoung Kim",
+  "artistNameLatin": "Minkyoung Kim",
+  "occupation": "Oriental Painter",
+  "menu": {
+    "main": "Main",
+    "artworks": "Works",
+    "about": "About",
+    "cv": "CV",
+    "news": "News",
+    "contact": "Contact"
+  },
   "main": {
-    "artistNote": "I paint warm stories carried by the sky, the sea, and imagined beings—looking into emotions that linger between familiar landscapes and dreams.",
-    "artistNoteLink": "Read artist note",
+    "artistNote": "Minkyoung Kim explores communication and subtle emotional exchanges among people living together through hanji, color, and collage.",
+    "artistNoteLink": "Read artist interview",
     "worksTitle": "Works",
     "worksLink": "View all works",
     "aboutTitle": "About the Artist",
-    "aboutSummary": "Mijung Choi paints the emotions found where imagination and reality meet. Through quiet color and familiar beings, her work recalls landscapes held in memory.",
+    "aboutSummary": "Minkyoung Kim paints the movement of emotion within relationships, communication, and coexistence.",
     "aboutLink": "Learn more"
   },
   "works": {
     "title": "Works",
-    "description": "Explore paintings by Mijung Choi across time and subject.",
+    "description": "Explore 51 works by Minkyoung Kim on relationships and emotional currents between people.",
     "all": "All",
     "previousPage": "Previous page",
     "nextPage": "Next page",
@@ -33,13 +40,18 @@
     "zoomOut": "Zoom out",
     "resetZoom": "Reset zoom"
   },
-  "common": { "imagePending": "Artwork image coming soon", "pagePreparing": "This page is being prepared." },
-  "footer": { "copyright": "All works and images © Mijung Choi." },
+  "common": {
+    "imagePending": "Artwork image coming soon",
+    "pagePreparing": "This page is being prepared."
+  },
+  "footer": {
+    "copyright": "All works and images © Minkyoung Kim."
+  },
   "seo": {
-    "title": "Mijung Choi | Artist",
-    "description": "The official website of Mijung Choi, a painter of skies, seas, and imagined beings.",
-    "ogTitle": "Mijung Choi | Artist",
-    "ogDescription": "Discover the paintings and practice of Mijung Choi.",
-    "ogImage": "/uploads/artworks/artwork-0001.webp"
+    "title": "Minkyoung Kim | Artist",
+    "description": "Works and career of Minkyoung Kim, an Oriental painter exploring relationships, communication, and coexistence.",
+    "ogTitle": "Minkyoung Kim | Artist",
+    "ogDescription": "Discover the works and practice of Minkyoung Kim.",
+    "ogImage": "https://og-data.s3.amazonaws.com/media/artworks/image/A0318/A0318-0049.jpg"
   }
 }

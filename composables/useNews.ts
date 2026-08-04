@@ -1,24 +1,15 @@
-import newsData from '~/content/news/index.json'
-import koNewsData from '~/content/locales/ko/news.json'
-import enNewsData from '~/content/locales/en/news.json'
-import siteData from '~/content/site.json'
-import type { LocaleCode, LocalizedNews, LocalizedNewsItem, NewsBase, NewsItemTranslation, SiteConfig } from '~/types/content'
+import koData from '~/content/data/ko.json'
+import enData from '~/content/data/en.json'
+import type { LocaleBundle, LocaleCode, LocalizedNewsItem } from '~/types/content'
 
-const baseItems = (newsData as { items: NewsBase[] }).items
-const config = siteData as SiteConfig
-const translations: Record<LocaleCode, LocalizedNews> = { ko: koNewsData as LocalizedNews, en: enNewsData as LocalizedNews }
+const bundles: Record<LocaleCode, LocaleBundle> = { ko: koData as LocaleBundle, en: enData as LocaleBundle }
+const config = bundles.ko.site.settings
 
 export function useNews() {
   const { locale } = useLocale()
-  const content = computed(() => translations[locale.value] ?? translations[config.defaultLocale])
-  const fallback = translations[config.defaultLocale]
+  const content = computed(() => (bundles[locale.value] ?? bundles[config.defaultLocale]).news)
   const items = computed<LocalizedNewsItem[]>(() => {
-    const selectedMap = new Map<string, NewsItemTranslation>(content.value.items.map(item => [item.id, item]))
-    const fallbackMap = new Map<string, NewsItemTranslation>(fallback.items.map(item => [item.id, item]))
-    return baseItems.filter(item => item.published).sort((a, b) => a.order - b.order).flatMap(base => {
-      const translated = selectedMap.get(base.id) ?? fallbackMap.get(base.id)
-      return translated ? [{ ...base, ...translated }] : []
-    })
+    return content.value.items.filter(item => item.published).sort((a, b) => a.order - b.order)
   })
   const categories = computed(() => content.value.categories)
   const getBySlug = (slug: string) => items.value.find(item => item.slug === slug) ?? null

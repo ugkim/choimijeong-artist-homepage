@@ -1,9 +1,8 @@
 {
   "categories": [
-    { "id": "dream", "name": "Dream" },
-    { "id": "night", "name": "Night" },
-    { "id": "garden", "name": "Garden" },
-    { "id": "journey", "name": "Journey" },
-    { "id": "sea", "name": "Sea" }
+    {
+      "id": "relationship",
+      "name": "Relationship & Coexistence"
+    }
   ]
 }

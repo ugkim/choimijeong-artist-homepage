@@ -17,16 +17,16 @@ useHead(() => ({
   script: [{ type: 'application/ld+json', innerHTML: JSON.stringify({
     '@context': 'https://schema.org', '@type': 'Person', name: content.value.artistName,
     alternateName: content.value.artistNameLatin, jobTitle: content.value.occupation, url: canonical.value,
-    image: `${siteUrl}${config.aboutImage}`,
+    image: absoluteAssetUrl(config.aboutImage, siteUrl),
     sameAs: [config.socials.instagram, config.socials.youtube, config.socials.vimeo].filter(Boolean)
   }) }]
 }))
 useSeoMeta({
   title: () => content.value.seo.title, description: () => content.value.seo.description,
   ogTitle: () => content.value.seo.ogTitle, ogDescription: () => content.value.seo.ogDescription,
-  ogImage: () => `${siteUrl}${content.value.seo.ogImage}`, ogType: 'website', ogUrl: () => canonical.value,
+  ogImage: () => absoluteAssetUrl(content.value.seo.ogImage, siteUrl), ogType: 'website', ogUrl: () => canonical.value,
   twitterCard: 'summary_large_image', twitterTitle: () => content.value.seo.ogTitle,
-  twitterDescription: () => content.value.seo.ogDescription, twitterImage: () => `${siteUrl}${content.value.seo.ogImage}`
+  twitterDescription: () => content.value.seo.ogDescription, twitterImage: () => absoluteAssetUrl(content.value.seo.ogImage, siteUrl)
 })
 </script>
 

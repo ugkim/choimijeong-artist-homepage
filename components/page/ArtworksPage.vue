@@ -30,7 +30,7 @@ useSeoMeta({
   description: () => content.value.works.description,
   ogTitle: () => `${content.value.works.title} — ${content.value.artistNameLatin}`,
   ogDescription: () => content.value.works.description,
-  ogImage: () => `${siteUrl}${content.value.seo.ogImage}`,
+  ogImage: () => absoluteAssetUrl(content.value.seo.ogImage, siteUrl),
   ogUrl: () => canonical.value,
   ogType: 'website'
 })

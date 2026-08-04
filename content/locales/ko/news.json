@@ -1,6 +1,6 @@
 {
   "pageTitle": "News",
-  "description": "최미정의 전시와 프로젝트, 최근 활동 소식입니다.",
+  "description": "김민경의 전시와 프로젝트, 최근 활동 소식입니다.",
   "allLabel": "전체",
   "readMore": "자세히 보기",
   "externalLink": "외부 기사 보기",
@@ -8,25 +8,26 @@
   "previous": "이전 소식",
   "next": "다음 소식",
   "categories": [
-    { "id": "exhibition", "name": "전시" },
-    { "id": "media", "name": "미디어" },
-    { "id": "interview", "name": "인터뷰" },
-    { "id": "notice", "name": "공지" },
-    { "id": "project", "name": "프로젝트" }
-  ],
-  "items": [
     {
-      "id": "news-0001",
-      "title": "이상한 나라의 여행",
-      "summary": "하늘과 바다, 상상의 존재들이 전하는 이야기를 담은 개인전입니다.",
-      "content": [
-        { "type": "paragraph", "text": "하늘과 바다, 상상의 존재들이 전하는 이야기를 한자리에서 소개합니다." },
-        { "type": "image", "src": "/uploads/news/news-0001-detail.webp", "alt": "전시 공간 전경" },
-        { "type": "paragraph", "text": "작품이 만드는 조용한 풍경과 그 안에 머무는 감정을 만나보세요." }
-      ],
-      "venue": "갤러리 도스",
-      "location": "서울, 대한민국",
-      "alt": "개인전 이상한 나라의 여행 대표 이미지"
+      "id": "exhibition",
+      "name": "전시"
+    },
+    {
+      "id": "media",
+      "name": "미디어"
+    },
+    {
+      "id": "interview",
+      "name": "인터뷰"
+    },
+    {
+      "id": "notice",
+      "name": "공지"
+    },
+    {
+      "id": "project",
+      "name": "프로젝트"
     }
-  ]
+  ],
+  "items": []
 }
