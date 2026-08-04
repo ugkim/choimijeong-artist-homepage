@@ -1,0 +1,12 @@
+{
+  "pageTitle": "CV",
+  "sections": [
+    { "id": "education", "title": "Education" },
+    { "id": "solo-exhibitions", "title": "Solo Exhibitions" },
+    { "id": "group-exhibitions", "title": "Group Exhibitions" },
+    { "id": "awards", "title": "Awards" },
+    { "id": "collections", "title": "Collections" }
+  ],
+  "entries": [],
+  "downloadLabel": "Download CV PDF"
+}

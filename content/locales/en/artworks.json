@@ -1,0 +1,9 @@
+{
+  "artworks": [
+    { "id": "artwork-0001", "title": "Journey Above the Clouds", "medium": "Oil on canvas", "dimensions": "51.3 × 63.9 in", "description": "A work depicting a journey between the sky and the sea.", "alt": "Painting of a child sitting on a whale above the clouds" },
+    { "id": "artwork-0002", "title": "Child Looking at the Moon", "medium": "Acrylic on canvas", "dimensions": "35.8 × 46 in", "description": "", "alt": "Painting of a child looking at a large moon" },
+    { "id": "artwork-0003", "title": "Blue Garden", "medium": "Oil on canvas", "dimensions": "28.6 × 35.8 in", "description": "", "alt": "Painting of blue plants and imagined creatures in a garden" },
+    { "id": "artwork-0004", "title": "A Quiet Flight", "medium": "Acrylic on canvas", "dimensions": "31.6 × 31.6 in", "description": "", "alt": "Painting of a figure flying quietly through a pale sky" },
+    { "id": "artwork-0005", "title": "Where the Sea Begins", "medium": "Oil on canvas", "dimensions": "38.2 × 76.3 in", "description": "", "alt": "Panoramic painting of a blue sea extending beyond the horizon" }
+  ]
+}

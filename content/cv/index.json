@@ -1,0 +1,11 @@
+{
+  "sections": [
+    { "id": "education", "order": 1, "published": true },
+    { "id": "solo-exhibitions", "order": 2, "published": true },
+    { "id": "group-exhibitions", "order": 3, "published": true },
+    { "id": "awards", "order": 4, "published": true },
+    { "id": "collections", "order": 5, "published": true }
+  ],
+  "entries": [],
+  "pdf": { "ko": "", "en": "" }
+}

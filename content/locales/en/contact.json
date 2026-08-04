@@ -1,0 +1,12 @@
+{
+  "pageTitle": "Contact",
+  "introduction": "For exhibition, artwork, and project inquiries, please get in touch by email.",
+  "emailLabel": "Email",
+  "phoneLabel": "Phone",
+  "socialLabel": "Social",
+  "mapLabel": "View map",
+  "copyEmail": "Copy email address",
+  "copied": "Copied.",
+  "copyFailed": "Could not copy. Please select the email address manually.",
+  "inquiryNotice": "Please allow some time for a reply."
+}

@@ -1,0 +1,40 @@
+{
+  "defaultLocale": "ko",
+  "availableLocales": ["ko", "en"],
+  "heroArtworkId": "artwork-0001",
+  "aboutImage": "/uploads/profile/studio.webp",
+  "aboutImageWidth": 1200,
+  "aboutImageHeight": 900,
+  "copyrightStartYear": 2026,
+  "artworksPage": {
+    "showTitle": true,
+    "showYear": true,
+    "showMedium": false,
+    "itemsPerPage": 24,
+    "mobileColumns": 2,
+    "desktopColumns": 4
+  },
+  "cvPage": {
+    "sortDirection": "desc",
+    "mobileAccordion": true,
+    "showPdfDownload": true
+  },
+  "newsPage": {
+    "itemsPerPage": 12,
+    "directExternalLinks": false
+  },
+  "socials": {
+    "instagram": "",
+    "youtube": "",
+    "vimeo": "",
+    "email": ""
+  },
+  "menu": [
+    { "id": "main", "path": "/" },
+    { "id": "artworks", "path": "/artworks" },
+    { "id": "about", "path": "/about" },
+    { "id": "cv", "path": "/cv" },
+    { "id": "news", "path": "/news" },
+    { "id": "contact", "path": "/contact" }
+  ]
+}

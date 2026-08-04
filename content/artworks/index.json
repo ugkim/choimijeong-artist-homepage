@@ -1,0 +1,71 @@
+{
+  "artworks": [
+    {
+      "id": "artwork-0001",
+      "slug": "journey-above-the-clouds",
+      "year": 2025,
+      "image": "/uploads/artworks/artwork-0001.webp",
+      "thumbnail": "/uploads/artworks/artwork-0001-thumb.webp",
+      "imageWidth": 1600,
+      "imageHeight": 2048,
+      "featured": true,
+      "published": true,
+      "order": 1,
+      "categoryId": "dream",
+      "externalVideo": null
+    },
+    {
+      "id": "artwork-0002",
+      "slug": "moon-child",
+      "year": 2024,
+      "image": "/uploads/artworks/artwork-0002.webp",
+      "thumbnail": "/uploads/artworks/artwork-0002-thumb.webp",
+      "imageWidth": 2048,
+      "imageHeight": 1365,
+      "featured": true,
+      "published": true,
+      "order": 2,
+      "categoryId": "night",
+      "externalVideo": null
+    },
+    {
+      "id": "artwork-0003",
+      "slug": "blue-garden",
+      "year": 2024,
+      "image": "/uploads/artworks/artwork-0003.webp",
+      "imageWidth": 1400,
+      "imageHeight": 1800,
+      "featured": true,
+      "published": true,
+      "order": 3,
+      "categoryId": "garden",
+      "externalVideo": null
+    },
+    {
+      "id": "artwork-0004",
+      "slug": "a-quiet-flight",
+      "year": 2023,
+      "image": "/uploads/artworks/artwork-0004.webp",
+      "imageWidth": 1800,
+      "imageHeight": 1800,
+      "featured": true,
+      "published": true,
+      "order": 4,
+      "categoryId": "journey",
+      "externalVideo": null
+    },
+    {
+      "id": "artwork-0005",
+      "slug": "where-the-sea-begins",
+      "year": 2023,
+      "image": "/uploads/artworks/artwork-0005.webp",
+      "imageWidth": 2048,
+      "imageHeight": 1024,
+      "featured": true,
+      "published": true,
+      "order": 5,
+      "categoryId": "sea",
+      "externalVideo": null
+    }
+  ]
+}

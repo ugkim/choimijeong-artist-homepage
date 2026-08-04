@@ -1,0 +1,12 @@
+{
+  "email": "artist@example.com",
+  "phone": "",
+  "instagram": "",
+  "youtube": "",
+  "vimeo": "",
+  "threads": "",
+  "addressMapUrl": "",
+  "showEmail": true,
+  "showPhone": false,
+  "showContactForm": false
+}

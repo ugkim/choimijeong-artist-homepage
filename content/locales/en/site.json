@@ -1,0 +1,45 @@
+{
+  "artistName": "최미정",
+  "artistNameLatin": "Mijung Choi",
+  "occupation": "Painter",
+  "menu": { "main": "Main", "artworks": "Works", "about": "About", "cv": "CV", "news": "News", "contact": "Contact" },
+  "main": {
+    "artistNote": "I paint warm stories carried by the sky, the sea, and imagined beings—looking into emotions that linger between familiar landscapes and dreams.",
+    "artistNoteLink": "Read artist note",
+    "worksTitle": "Works",
+    "worksLink": "View all works",
+    "aboutTitle": "About the Artist",
+    "aboutSummary": "Mijung Choi paints the emotions found where imagination and reality meet. Through quiet color and familiar beings, her work recalls landscapes held in memory.",
+    "aboutLink": "Learn more"
+  },
+  "works": {
+    "title": "Works",
+    "description": "Explore paintings by Mijung Choi across time and subject.",
+    "all": "All",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "pageStatus": "Page",
+    "empty": "There are no published works in this category."
+  },
+  "artworkDetail": {
+    "backToWorks": "Back to Works",
+    "category": "Category",
+    "video": "Artwork video",
+    "previous": "Previous work",
+    "next": "Next work",
+    "openLightbox": "View artwork larger",
+    "closeLightbox": "Close enlarged view",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "resetZoom": "Reset zoom"
+  },
+  "common": { "imagePending": "Artwork image coming soon", "pagePreparing": "This page is being prepared." },
+  "footer": { "copyright": "All works and images © Mijung Choi." },
+  "seo": {
+    "title": "Mijung Choi | Artist",
+    "description": "The official website of Mijung Choi, a painter of skies, seas, and imagined beings.",
+    "ogTitle": "Mijung Choi | Artist",
+    "ogDescription": "Discover the paintings and practice of Mijung Choi.",
+    "ogImage": "/uploads/artworks/artwork-0001.webp"
+  }
+}

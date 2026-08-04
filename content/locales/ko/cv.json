@@ -1,0 +1,12 @@
+{
+  "pageTitle": "CV",
+  "sections": [
+    { "id": "education", "title": "학력" },
+    { "id": "solo-exhibitions", "title": "개인전" },
+    { "id": "group-exhibitions", "title": "단체전" },
+    { "id": "awards", "title": "수상" },
+    { "id": "collections", "title": "소장" }
+  ],
+  "entries": [],
+  "downloadLabel": "CV PDF 다운로드"
+}

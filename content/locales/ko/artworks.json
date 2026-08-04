@@ -1,0 +1,9 @@
+{
+  "artworks": [
+    { "id": "artwork-0001", "title": "구름 위의 여행", "medium": "캔버스에 유채", "dimensions": "130.3 × 162.2 cm", "description": "하늘과 바다 사이를 여행하는 존재에 관한 작품입니다.", "alt": "푸른 하늘 위 고래 등에 앉아 있는 아이를 그린 작품" },
+    { "id": "artwork-0002", "title": "달을 바라보는 아이", "medium": "캔버스에 아크릴", "dimensions": "91 × 116.8 cm", "description": "", "alt": "커다란 달을 바라보는 아이를 그린 회화 작품" },
+    { "id": "artwork-0003", "title": "푸른 정원", "medium": "캔버스에 유채", "dimensions": "72.7 × 90.9 cm", "description": "", "alt": "푸른 식물과 상상의 생명들이 어우러진 회화 작품" },
+    { "id": "artwork-0004", "title": "고요한 비행", "medium": "캔버스에 아크릴", "dimensions": "80.3 × 80.3 cm", "description": "", "alt": "옅은 하늘을 조용히 날아가는 존재를 그린 작품" },
+    { "id": "artwork-0005", "title": "바다가 시작되는 곳", "medium": "캔버스에 유채", "dimensions": "97 × 193.9 cm", "description": "", "alt": "수평선 너머로 이어지는 푸른 바다 풍경 작품" }
+  ]
+}

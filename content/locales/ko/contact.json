@@ -1,0 +1,12 @@
+{
+  "pageTitle": "Contact",
+  "introduction": "전시, 작품 및 프로젝트 문의는 이메일로 연락해 주세요.",
+  "emailLabel": "이메일",
+  "phoneLabel": "전화번호",
+  "socialLabel": "SNS",
+  "mapLabel": "지도에서 보기",
+  "copyEmail": "이메일 주소 복사",
+  "copied": "복사되었습니다.",
+  "copyFailed": "복사하지 못했습니다. 이메일 주소를 직접 선택해 주세요.",
+  "inquiryNotice": "답변에는 일정 시간이 소요될 수 있습니다."
+}

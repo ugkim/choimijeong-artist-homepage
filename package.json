@@ -1,0 +1,31 @@
+{
+  "name": "mijung-choi-artist-portfolio",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.14.0",
+  "scripts": {
+    "dev": "nuxt dev",
+    "validate": "tsx scripts/validate-content.ts",
+    "generate": "tsx scripts/validate-content.ts && nuxt generate",
+    "build": "tsx scripts/validate-content.ts && nuxt build",
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxtjs/robots": "^5.4.1",
+    "@nuxtjs/sitemap": "^7.4.3",
+    "nuxt": "^3.17.7",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "sass": "^1.89.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vue-tsc": "^2.2.12"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

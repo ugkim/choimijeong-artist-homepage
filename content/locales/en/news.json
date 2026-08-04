@@ -1,0 +1,32 @@
+{
+  "pageTitle": "News",
+  "description": "Exhibitions, projects, and recent activities by Mijung Choi.",
+  "allLabel": "All",
+  "readMore": "Read more",
+  "externalLink": "View external article",
+  "backToNews": "Back to News",
+  "previous": "Previous news",
+  "next": "Next news",
+  "categories": [
+    { "id": "exhibition", "name": "Exhibition" },
+    { "id": "media", "name": "Media" },
+    { "id": "interview", "name": "Interview" },
+    { "id": "notice", "name": "Notice" },
+    { "id": "project", "name": "Project" }
+  ],
+  "items": [
+    {
+      "id": "news-0001",
+      "title": "Journey to a Strange World",
+      "summary": "A solo exhibition presenting stories carried by skies, seas, and imagined beings.",
+      "content": [
+        { "type": "paragraph", "text": "The exhibition brings together stories carried by skies, seas, and imagined beings." },
+        { "type": "image", "src": "/uploads/news/news-0001-detail.webp", "alt": "Installation view of the exhibition" },
+        { "type": "paragraph", "text": "Visitors are invited into the quiet landscapes and lingering emotions created by the works." }
+      ],
+      "venue": "Gallery DOS",
+      "location": "Seoul, South Korea",
+      "alt": "Key image for Journey to a Strange World"
+    }
+  ]
+}

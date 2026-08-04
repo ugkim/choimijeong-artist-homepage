@@ -1,0 +1,8 @@
+{
+  "portraitImage": "/uploads/about/portrait.webp",
+  "studioImage": "/uploads/about/studio.webp",
+  "featuredArtworkId": "artwork-0001",
+  "showArtistNote": true,
+  "showBiography": true,
+  "showStatement": true
+}

@@ -1,0 +1,9 @@
+{
+  "categories": [
+    { "id": "dream", "name": "꿈" },
+    { "id": "night", "name": "밤" },
+    { "id": "garden", "name": "정원" },
+    { "id": "journey", "name": "여행" },
+    { "id": "sea", "name": "바다" }
+  ]
+}

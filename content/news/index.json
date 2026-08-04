@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "id": "news-0001",
+      "slug": "journey-to-a-strange-world",
+      "categoryId": "exhibition",
+      "publishedAt": "2026-05-20",
+      "endAt": "2026-06-20",
+      "thumbnail": "/uploads/news/news-0001.webp",
+      "image": "/uploads/news/news-0001.webp",
+      "imageWidth": 2048,
+      "imageHeight": 1365,
+      "published": true,
+      "featured": true,
+      "order": 1,
+      "externalUrl": null,
+      "externalVideo": null,
+      "relatedArtworkIds": ["artwork-0001"]
+    }
+  ]
+}
