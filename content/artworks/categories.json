@@ -1,9 +1,9 @@
 {
   "categories": [
-    { "id": "dream", "order": 1, "published": true },
-    { "id": "night", "order": 2, "published": true },
-    { "id": "garden", "order": 3, "published": true },
-    { "id": "journey", "order": 4, "published": true },
-    { "id": "sea", "order": 5, "published": true }
+    {
+      "published": true,
+      "order": 1,
+      "id": "dream"
+    }
   ]
 }
